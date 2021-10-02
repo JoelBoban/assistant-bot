@@ -1,0 +1,29 @@
+{
+    "name": "Auto Filter Bot",
+    "description": "A Filter Bot Which Doesnt Need Manuall Filter Adding",
+    "logo": "https://telegra.ph/file/667e15c821117633d07bd.png",
+    "keywords": [
+        "Auto",
+        "Filter",
+        "Mongo DB"
+    ],
+    "website": "https://github.com/JoelBoban",
+    "repository": "https://github.com/JoelBoban/assistant-bot",
+    "success_url": "https://telegram.dog/CrazyBotsz",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot Token",
+            "value": ""
+        }, 
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
