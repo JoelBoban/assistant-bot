@@ -1,5 +1,5 @@
-from datetime import datetime
-
+#responses
+from datetime import date
 def sample_responses(input_text):
     user_message = str(inpu_text).lower()
 
