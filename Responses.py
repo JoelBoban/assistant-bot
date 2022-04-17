@@ -1,12 +1,12 @@
 #responses
 from datetime import datetime
 def sample_responses(input_text):
-    user_message = str(inpu_text).lower()
+    user_message = str(input_text).lower()
 
-    if user_message in ("hello", "hai", "sup",):
+    if user_message in ("hello", "hai", "sup"):
         return "Hey! How's it going?"
 
-    if user_message in ("who are you?", "who are you",):
+    if user_message in ("who are you?", "who are you"):
         return "I am Joel's assistant!"
 
     if user_message in ("time", "time?"):
@@ -15,6 +15,6 @@ def sample_responses(input_text):
 
         return str(date_time)
 
-
-    return"I don't understand you."
+    else:
+        return"I don't understand you."
         
